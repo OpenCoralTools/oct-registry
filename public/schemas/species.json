@@ -25,6 +25,11 @@
       "type": "string",
       "description": "Common name"
     },
+    "createdBy": {
+      "type": "string",
+      "description": "GitHub username of the creator",
+      "readOnly": true
+    },
     "_schemaVersion": {
       "type": "string",
       "description": "The schema version used when this record was created/updated",

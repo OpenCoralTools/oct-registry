@@ -124,11 +124,19 @@ export default function RegistryManager({ name, initialData }: RegistryManagerPr
     setSuccess(null);
 
     try {
-      // Inject schema version before validation
-      const itemToValidate = {
+      // Prepare item metadata
+      let itemToValidate = {
         ...formData,
         _schemaVersion: schemaVersion
       };
+
+      // Inject createdBy if this is a new item
+      if (!editItem && user) {
+        itemToValidate.createdBy = user.login;
+      } else if (editItem && editItem.createdBy) {
+        // Preserve existing createdBy on edit
+        itemToValidate.createdBy = editItem.createdBy;
+      }
 
       // Validate schema
       const validItem = zodSchema.parse(itemToValidate);
@@ -291,7 +299,7 @@ export default function RegistryManager({ name, initialData }: RegistryManagerPr
             <thead className="bg-slate-50 border-b">
               <tr>
                 {displayData.length > 0 && Object.keys(displayData[0]).map(key => {
-                  // Hide _schemaVersion column? Optional
+                  // Hide metadata columns
                   if (key === '_schemaVersion') return null;
                   return <th key={key} className="p-4 font-semibold text-slate-600 capitalize">{key}</th>
                 })}
@@ -346,8 +354,8 @@ function AutoForm({ schema, initialValues, onSubmit, onCancel, loading, fieldCon
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       {keys.map(key => {
-        // Hide _schemaVersion from form
-        if (key === '_schemaVersion') return null;
+        // Hide metadata from form
+        if (key === '_schemaVersion' || key === 'createdBy') return null;
 
         const fieldSchema = shape[key];
         const isOptional = fieldSchema.isOptional();

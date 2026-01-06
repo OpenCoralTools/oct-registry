@@ -1,37 +1,42 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Organization",
-    "version": "0.0.1",
-    "type": "object",
-    "properties": {
-        "id": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Unique identifier for the organization"
-        },
-        "name": {
-            "type": "string",
-            "minLength": 1,
-            "description": "Full name of the organization"
-        },
-        "contact": {
-            "type": "string",
-            "description": "Contact email or person"
-        },
-        "website": {
-            "type": "string",
-            "format": "uri",
-            "description": "Organization website URL"
-        },
-        "_schemaVersion": {
-            "type": "string",
-            "description": "The schema version used when this record was created/updated",
-            "readOnly": true
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Organization",
+  "version": "0.0.1",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique identifier for the organization"
     },
-    "required": [
-        "id",
-        "name"
-    ],
-    "additionalProperties": false
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Full name of the organization"
+    },
+    "contact": {
+      "type": "string",
+      "description": "Contact email or person"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Organization website URL"
+    },
+    "createdBy": {
+      "type": "string",
+      "description": "GitHub username of the creator",
+      "readOnly": true
+    },
+    "_schemaVersion": {
+      "type": "string",
+      "description": "The schema version used when this record was created/updated",
+      "readOnly": true
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ],
+  "additionalProperties": false
 }
