@@ -1,0 +1,38 @@
+---
+import _genets from "../../../data/genets.json";
+import _organizations from "../../../data/organizations.json";
+import _species from "../../../data/species.json";
+import RegistryManager from "../../components/RegistryManager";
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  const organizations = (_organizations as any).default || _organizations;
+  const species = (_species as any).default || _species;
+  const genets = (_genets as any).default || _genets;
+
+  return [
+    {
+      params: { id: "organizations" },
+      props: { name: "organizations", data: organizations },
+    },
+    { params: { id: "species" }, props: { name: "species", data: species } },
+    { params: { id: "genets" }, props: { name: "genets", data: genets } },
+  ];
+}
+
+const { id } = Astro.params;
+const { name, data } = Astro.props;
+---
+
+<Layout>
+  <div class="space-y-4 mb-8">
+    <a
+      href={import.meta.env.BASE_URL}
+      class="text-slate-500 hover:text-slate-900 flex items-center gap-1 text-sm font-medium"
+    >
+      &larr; Back to Registry List
+    </a>
+  </div>
+
+  <RegistryManager client:only="react" name={name as any} initialData={data} />
+</Layout>

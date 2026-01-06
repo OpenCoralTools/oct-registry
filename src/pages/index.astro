@@ -1,0 +1,73 @@
+---
+import { Database, FileText, Globe } from "lucide-react";
+import Layout from "../layouts/Layout.astro";
+
+const registers = [
+  {
+    id: "organizations",
+    name: "Organizations",
+    description: "Federated organization IDs and metadata.",
+    icon: Globe,
+    count: (await import("../../data/organizations.json")).default.length,
+  },
+  {
+    id: "species",
+    name: "Coral Species",
+    description: "Species codes (4-letter) and scientific names.",
+    icon: Database,
+    count: (await import("../../data/species.json")).default.length,
+  },
+  {
+    id: "genets",
+    name: "Coral Genets",
+    description: "Unique genet IDs mapped to organizations and species.",
+    icon: FileText,
+    count: (await import("../../data/genets.json")).default.length,
+  },
+];
+---
+
+<Layout>
+  <div class="max-w-4xl mx-auto space-y-8">
+    <div class="text-center space-y-4 py-12">
+      <h1 class="text-4xl font-extrabold tracking-tight">
+        OpenCoralTools Registry
+      </h1>
+      <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+        An open-source data registry for coral restoration. Contribute via
+        GitHub Pull Requests.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      {
+        registers.map((reg) => (
+          <a
+            href={`${import.meta.env.BASE_URL}register/${reg.id}`}
+            class="block group"
+          >
+            <div class="bg-white rounded-xl shadow-sm border p-6 hover:shadow-md transition-shadow h-full flex flex-col">
+              <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-100 transition-colors">
+                <reg.icon className="w-6 h-6" />
+              </div>
+              <h2 class="text-xl font-bold mb-2">{reg.name}</h2>
+              <p class="text-slate-600 mb-4 flex-grow">{reg.description}</p>
+              <div class="text-sm text-slate-400 font-medium">
+                {reg.count} entries
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="text-center pt-8">
+      <a
+        href={`${import.meta.env.BASE_URL}downloads`}
+        class="text-blue-600 hover:underline font-medium"
+        >Download all data (CSV)</a
+      >
+      {/* We can create a downloads page or just link to the public folder */}
+    </div>
+  </div>
+</Layout>

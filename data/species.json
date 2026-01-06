@@ -1,0 +1,16 @@
+[
+  {
+    "code": "ACER",
+    "genus": "Acropora",
+    "specificEpithet": "cervicornis",
+    "commonName": "Staghorn Coral",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "APAL",
+    "genus": "Acropora",
+    "specificEpithet": "palmata",
+    "commonName": "Elkhorn Coral",
+    "_schemaVersion": "0.0.1"
+  }
+]

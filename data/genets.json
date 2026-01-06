@@ -1,0 +1,16 @@
+[
+    {
+        "id": "apal-123",
+        "orgId": "oct",
+        "speciesCode": "APAL",
+        "notes": "Example genet",
+        "_schemaVersion": "0.0.1"
+    },
+    {
+        "id": "acer-456",
+        "orgId": "oct",
+        "speciesCode": "ACER",
+        "notes": "Example genet",
+        "_schemaVersion": "0.0.1"
+    }
+]
