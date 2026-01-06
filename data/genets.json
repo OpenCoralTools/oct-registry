@@ -4,6 +4,7 @@
         "orgId": "oct",
         "speciesCode": "APAL",
         "notes": "Example genet",
+        "createdBy": "cforkish",
         "_schemaVersion": "0.0.1"
     },
     {
@@ -11,6 +12,7 @@
         "orgId": "oct",
         "speciesCode": "ACER",
         "notes": "Example genet",
+        "createdBy": "cforkish",
         "_schemaVersion": "0.0.1"
     }
 ]

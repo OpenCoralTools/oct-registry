@@ -4,6 +4,7 @@
     "genus": "Acropora",
     "specificEpithet": "cervicornis",
     "commonName": "Staghorn Coral",
+    "createdBy": "cforkish",
     "_schemaVersion": "0.0.1"
   },
   {
@@ -11,6 +12,7 @@
     "genus": "Acropora",
     "specificEpithet": "palmata",
     "commonName": "Elkhorn Coral",
+    "createdBy": "cforkish",
     "_schemaVersion": "0.0.1"
   },
   {
@@ -18,6 +20,7 @@
     "genus": "Acropora",
     "specificEpithet": "prolifera",
     "commonName": "Fused Staghorn Coral",
+    "createdBy": "cforkish",
     "_schemaVersion": "0.0.1"
   },
   {
@@ -25,6 +28,550 @@
     "genus": "Agaricia",
     "specificEpithet": "agaricites",
     "commonName": "Lettuce Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "AFRA",
+    "genus": "Agaricia",
+    "specificEpithet": "fragilis",
+    "commonName": "Fragile Saucer Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "AHUM",
+    "genus": "Agaricia",
+    "specificEpithet": "humilis",
+    "commonName": "Low-relief Lettuce Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ALAM",
+    "genus": "Agaricia",
+    "specificEpithet": "lamarcki",
+    "commonName": "Lamarck's Sheet Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ATEN",
+    "genus": "Agaricia",
+    "specificEpithet": "tenuifolia",
+    "commonName": "Thin-leaf Lettuce Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "CARB",
+    "genus": "Cladocora",
+    "specificEpithet": "arbuscula",
+    "commonName": "Ivory Tube Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "CNAT",
+    "genus": "Colpophyllia",
+    "specificEpithet": "natans",
+    "commonName": "Boulder Brain Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "DCYL",
+    "genus": "Dendrogyra",
+    "specificEpithet": "cylindrus",
+    "commonName": "Pillar Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "DSTO",
+    "genus": "Dichocoenia",
+    "specificEpithet": "stokesii",
+    "commonName": "Pineapple Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "DLAB",
+    "genus": "Diploria",
+    "specificEpithet": "labyrinthiformis",
+    "commonName": "Grooved Brain Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "EFAS",
+    "genus": "Eusmilia",
+    "specificEpithet": "fastigiata",
+    "commonName": "Smooth Flower Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "FFRA",
+    "genus": "Favia",
+    "specificEpithet": "fragum",
+    "commonName": "Golf Ball Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "HCUC",
+    "genus": "Helioseris",
+    "specificEpithet": "cucullata",
+    "commonName": "Sunray Lettuce Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "IRIG",
+    "genus": "Isophyllastrea",
+    "specificEpithet": "rigida",
+    "commonName": "Rough Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ISIN",
+    "genus": "Isophyllia",
+    "specificEpithet": "sinuosa",
+    "commonName": "Sinuous Cactus Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MAUR",
+    "genus": "Madracis",
+    "specificEpithet": "auretenra",
+    "commonName": "Yellow Finger Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MDEC",
+    "genus": "Madracis",
+    "specificEpithet": "decactis",
+    "commonName": "Ten-ray Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MMIR",
+    "genus": "Madracis",
+    "specificEpithet": "mirabilis",
+    "commonName": "Yellow Pencil Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MPHA",
+    "genus": "Madracis",
+    "specificEpithet": "pharensis",
+    "commonName": "Encrusting Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MSEN",
+    "genus": "Madracis",
+    "specificEpithet": "senaria",
+    "commonName": "Six-ray Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MARE",
+    "genus": "Manicina",
+    "specificEpithet": "areolata",
+    "commonName": "Rose Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MMEA",
+    "genus": "Meandrina",
+    "specificEpithet": "meandrites",
+    "commonName": "Maze Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MCAV",
+    "genus": "Montastraea",
+    "specificEpithet": "cavernosa",
+    "commonName": "Great Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MANG",
+    "genus": "Mussa",
+    "specificEpithet": "angulosa",
+    "commonName": "Spiny Flower Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MYAL",
+    "genus": "Mycetophyllia",
+    "specificEpithet": "aliciae",
+    "commonName": "Knobby Cactus Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MYDA",
+    "genus": "Mycetophyllia",
+    "specificEpithet": "danaana",
+    "commonName": "Lowridge Cactus Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MYFE",
+    "genus": "Mycetophyllia",
+    "specificEpithet": "ferox",
+    "commonName": "Rough Cactus Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MYLA",
+    "genus": "Mycetophyllia",
+    "specificEpithet": "lamarckiana",
+    "commonName": "Ridged Cactus Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MYRE",
+    "genus": "Mycetophyllia",
+    "specificEpithet": "reesi",
+    "commonName": "Ridgeless Cactus Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ODIF",
+    "genus": "Oculina",
+    "specificEpithet": "diffusa",
+    "commonName": "Diffuse Ivory Bush Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "OROB",
+    "genus": "Oculina",
+    "specificEpithet": "robusta",
+    "commonName": "Robust Ivory Tree Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "OANN",
+    "genus": "Orbicella",
+    "specificEpithet": "annularis",
+    "commonName": "Lobed Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "OFAV",
+    "genus": "Orbicella",
+    "specificEpithet": "faveolata",
+    "commonName": "Mountainous Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "OFRA",
+    "genus": "Orbicella",
+    "specificEpithet": "franksi",
+    "commonName": "Boulder Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PAME",
+    "genus": "Phyllangia",
+    "specificEpithet": "americana",
+    "commonName": "Hidden Cup Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PAST",
+    "genus": "Porites",
+    "specificEpithet": "astreoides",
+    "commonName": "Mustard Hill Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PDIV",
+    "genus": "Porites",
+    "specificEpithet": "divaricata",
+    "commonName": "Thin Finger Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PFUR",
+    "genus": "Porites",
+    "specificEpithet": "furcata",
+    "commonName": "Branched Finger Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PPOR",
+    "genus": "Porites",
+    "specificEpithet": "porites",
+    "commonName": "Club-tip Finger Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PCLI",
+    "genus": "Pseudodiploria",
+    "specificEpithet": "clivosa",
+    "commonName": "Knobby Brain Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PSTR",
+    "genus": "Pseudodiploria",
+    "specificEpithet": "strigosa",
+    "commonName": "Symmetrical Brain Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SCUB",
+    "genus": "Scolymia",
+    "specificEpithet": "cubensis",
+    "commonName": "Artichoke Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SLAC",
+    "genus": "Scolymia",
+    "specificEpithet": "lacera",
+    "commonName": "Solitary Disk Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SRAD",
+    "genus": "Siderastrea",
+    "specificEpithet": "radians",
+    "commonName": "Lesser Starlet Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SSID",
+    "genus": "Siderastrea",
+    "specificEpithet": "siderea",
+    "commonName": "Massive Starlet Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SBOU",
+    "genus": "Solenastrea",
+    "specificEpithet": "bournoni",
+    "commonName": "Smooth Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SHYA",
+    "genus": "Solenastrea",
+    "specificEpithet": "hyades",
+    "commonName": "Knobby Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SINT",
+    "genus": "Stephanocoenia",
+    "specificEpithet": "intersepta",
+    "commonName": "Blushing Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "TCOC",
+    "genus": "Tubastraea",
+    "specificEpithet": "coccinea",
+    "commonName": "Orange Cup Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "AGLO",
+    "genus": "Acropora",
+    "specificEpithet": "globiceps",
+    "commonName": "Staghorn Coral (Globular Staghorn)",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "AJAC",
+    "genus": "Acropora",
+    "specificEpithet": "jacquelineae",
+    "commonName": "Table Staghorn Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ALOK",
+    "genus": "Acropora",
+    "specificEpithet": "lokani",
+    "commonName": "Lokani Staghorn Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "APHA",
+    "genus": "Acropora",
+    "specificEpithet": "pharaonis",
+    "commonName": "Pharaoh Staghorn Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ARET",
+    "genus": "Acropora",
+    "specificEpithet": "retusa",
+    "commonName": "Bottlebrush Staghorn Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ARUD",
+    "genus": "Acropora",
+    "specificEpithet": "rudis",
+    "commonName": "Knobby Staghorn Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ASPE",
+    "genus": "Acropora",
+    "specificEpithet": "speciosa",
+    "commonName": "Blue Staghorn Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ASPI",
+    "genus": "Anacropora",
+    "specificEpithet": "spinosa",
+    "commonName": "Anacropora Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "ICRA",
+    "genus": "Isopora",
+    "specificEpithet": "crateriformis",
+    "commonName": "Crater Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MAUS",
+    "genus": "Montipora",
+    "specificEpithet": "australiensis",
+    "commonName": "Australian Rice Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PDIF",
+    "genus": "Pavona",
+    "specificEpithet": "diffluens",
+    "commonName": "Leaf Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PNAP",
+    "genus": "Porites",
+    "specificEpithet": "napopora",
+    "commonName": "Boulder Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SACU",
+    "genus": "Seriatopora",
+    "specificEpithet": "aculeata",
+    "commonName": "Needle Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PLOB",
+    "genus": "Porites",
+    "specificEpithet": "lobata",
+    "commonName": "Lobe Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PCYL",
+    "genus": "Porites",
+    "specificEpithet": "cylindrica",
+    "commonName": "Finger Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PMEA",
+    "genus": "Pocillopora",
+    "specificEpithet": "meandrina",
+    "commonName": "Cauliflower Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "SPIS",
+    "genus": "Stylophora",
+    "specificEpithet": "pistillata",
+    "commonName": "Cat's Paw Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "MGRI",
+    "genus": "Montipora",
+    "specificEpithet": "grisea",
+    "commonName": "Gray Rice Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "DPAL",
+    "genus": "Dipsastraea",
+    "specificEpithet": "pallida",
+    "commonName": "Pale Star Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "PCOM",
+    "genus": "Porites",
+    "specificEpithet": "compressa",
+    "commonName": "Finger Coral",
     "createdBy": "cforkish",
     "_schemaVersion": "0.0.1"
   }
