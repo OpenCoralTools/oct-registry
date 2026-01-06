@@ -19,5 +19,13 @@
     "specificEpithet": "prolifera",
     "commonName": "Fused Staghorn Coral",
     "_schemaVersion": "0.0.1"
+  },
+  {
+    "code": "AAGA",
+    "genus": "Agaricia",
+    "specificEpithet": "agaricites",
+    "commonName": "Lettuce Coral",
+    "createdBy": "cforkish",
+    "_schemaVersion": "0.0.1"
   }
 ]
