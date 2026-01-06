@@ -1,4 +1,5 @@
-"code","genus","specificEpithet","commonName","_schemaVersion"
-"ACER","Acropora","cervicornis","Staghorn Coral","0.0.1"
-"APAL","Acropora","palmata","Elkhorn Coral","0.0.1"
-"APRO","Acropora","prolifera","Fused Staghorn Coral","0.0.1"
+"code","genus","specificEpithet","commonName","_schemaVersion","createdBy"
+"ACER","Acropora","cervicornis","Staghorn Coral","0.0.1",
+"APAL","Acropora","palmata","Elkhorn Coral","0.0.1",
+"APRO","Acropora","prolifera","Fused Staghorn Coral","0.0.1",
+"AAGA","Agaricia","agaricites","Lettuce Coral","0.0.1","cforkish"
